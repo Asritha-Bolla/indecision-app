@@ -9,8 +9,7 @@
     "build-dev": "webpack --watch",
     "build": "webpack",
     "dev-server": "webpack-dev-server",
-    "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
